@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    
+</head>
+<body>
+    <div class = "header">
+        <h1>CrystalsCollector!</h1>
+    </div>
+    
+    <div class = "instructions format">
+        <h2>INSTRUCTIONS</h2>
+   
+        <ol>
+            <li>
+                You will be given a random number at the start of the game.
+            </li>
+            <li>There are four crystals below.</li>
+                <ul>
+                    <li id="blue">Blue</li>
+                    <li id="green">Green</li>
+                    <li id="red">Red</li>
+                    <li id="yellow">Yellow</li>
+                </ul>
+            <li>
+                By clicking on the crystal you will add a specific amount of points to your total score.
+            </li>
+            <li>
+                You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+            </li>
+            <li>
+                The value of each crystal is hidden from you until you click on it.
+            </li>
+            <li>
+                Each time when the game starts, the game will change the values of each crystal.
+            </li>
+        </ol>
+    </div>
+    
+    <div class = "numberGenerated format">
+        Random Number:
+        <span id= "numberRandom"></span>
+    </div>
+    
+    <div class = "winsAndLosses format">
+        Wins:
+        <span id= "numberWins"></span>
+        <br>
+        Losses: 
+        <span id= "numberLosses"></span>
+    </div>
+    
+    <div class = "crystals format">
+        <img src = "assets/images/blue.png" class = "crystalImage" alt = "Blue crystal">
+        <img src = "assets/images/green.png" class = "crystalImage" alt = "Green crystal">
+        <img src = "assets/images/red.png" class = "crystalImage" alt = "Red crystal">
+        <img src = "assets/images/yellow.png" class = "crystalImage" alt = "Yellow crystal">
+    </div>
+    
+    <div class = "userScore format">
+        Your total score is:
+        <span id = "totalScore" ></span>
+    </div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>

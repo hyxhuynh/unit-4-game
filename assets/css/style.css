@@ -1,0 +1,99 @@
+/* Set the "universal box-sizing" */
+* {
+    box-sizing: border-box;
+}
+
+/* Add background image */
+body{
+	background-image: url("../images/congruent_pentagon.png")
+}
+
+/* Numbering system does not show up without these lines */
+ol {
+	list-style: decimal inside;
+	line-height: 120%;
+}
+
+/* Bullet points do not show up without these lines */
+ul {
+	list-style: disc inside;
+	line-height: 120%;
+	margin-left: 20px;
+}
+
+/* Add font and color to the 'CrystalsCollector!' header */
+h1 {
+    margin: 0 auto;
+    color: cornflowerblue; 
+    font-family: 'Baloo Tammudu', cursive; 
+	font-size: 8vw; 
+	padding-top: 30px; 
+    font-weight: normal; 
+    text-align: center; 
+	text-shadow: 0 1px 1px #fff; 
+}
+
+/* Add font and color  */
+h2 {
+	width: 70%;
+	margin: 0 auto;  
+	color: #00897B; 
+	font-size: 2vw; 
+	font-weight: 700; 
+	text-align: center;
+	padding: 10px; 
+	font-family: 'Libre Baskerville', serif; 
+}
+
+div {
+	color: black; 
+    font-family: 'Droid serif', serif; 
+    font-size: 2vw; 
+    font-weight: 400; 
+    font-style: italic;  
+    margin: 0 0 12px; 
+	text-align: left; 
+	
+}
+
+.numberGenerated, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: auto;
+}
+.userScore{
+	width: 15%;
+	height: auto;
+}
+
+.format {
+	border: solid black 2px;
+	margin: 20px;
+	border-radius: 10px;
+	padding: 15px;
+	background-color: #E0F2F1;
+}
+
+
+/* crystals images */
+.crystals{
+	width: 32%;
+	clear: both;
+}
+.crystalImage{
+	height: auto;
+	margin: 10px;
+}
+/* IDs */
+#blue{
+	color: #3092c7;
+}
+#green{
+	color: #00aa59;
+}
+#red{
+	color: #ec4b5f;
+}
+#yellow{
+	color: #ffc225;
+}
