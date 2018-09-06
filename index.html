@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
 </head>
 <body>
@@ -24,10 +25,10 @@
             </li>
             <li>There are four crystals below.</li>
                 <ul>
-                    <li id="blue">Blue</li>
-                    <li id="green">Green</li>
-                    <li id="red">Red</li>
-                    <li id="yellow">Yellow</li>
+                    <li id="blueWord">Blue</li>
+                    <li id="greenWord">Green</li>
+                    <li id="redWord">Red</li>
+                    <li id="yellowWord">Yellow</li>
                 </ul>
             <li>
                 By clicking on the crystal you will add a specific amount of points to your total score.
@@ -45,11 +46,12 @@
     </div>
     
     <div class = "numberGenerated format">
-        Random Number:
+        Target Score:
         <span id= "numberRandom"></span>
     </div>
     
     <div class = "winsAndLosses format">
+        <div class="textWinLost"></div>
         Wins:
         <span id= "numberWins"></span>
         <br>
@@ -58,10 +60,10 @@
     </div>
     
     <div class = "crystals format">
-        <img src = "assets/images/blue.png" class = "crystalImage" alt = "Blue crystal">
-        <img src = "assets/images/green.png" class = "crystalImage" alt = "Green crystal">
-        <img src = "assets/images/red.png" class = "crystalImage" alt = "Red crystal">
-        <img src = "assets/images/yellow.png" class = "crystalImage" alt = "Yellow crystal">
+        <img src = "assets/images/blue.png" class = "crystalImage" id = "blue" data-name = "blueValue" alt = "Blue crystal">
+        <img src = "assets/images/green.png" class = "crystalImage" id = "green" data-name = "greenValue" alt = "Green crystal">
+        <img src = "assets/images/red.png" class = "crystalImage" id = "red" data-name = "redValue" alt = "Red crystal">
+        <img src = "assets/images/yellow.png" class = "crystalImage" id = "yellow" data-name = "yellowValue" alt = "Yellow crystal">
     </div>
     
     <div class = "userScore format">
