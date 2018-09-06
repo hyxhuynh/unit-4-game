@@ -45,6 +45,7 @@ h2 {
 	font-family: 'Libre Baskerville', serif; 
 }
 
+/* Styles for all divs */
 div {
 	color: black; 
     font-family: 'Droid serif', serif; 
@@ -84,7 +85,7 @@ div {
 	height: auto;
 	margin: 10px;
 }
-/* IDs */
+/* colorful words in instructions */
 #blueWord {
 	color: #3092c7;
 }
