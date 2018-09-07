@@ -12,6 +12,9 @@ $(document).ready(function() {
         // Target Score
         $("#numberRandom").text(targetScore);
 
+        // Display player's score as 0
+        $("#totalScore").text(playerScore);
+        
         // FUNCTIONS
         // Returns a random integer between min (inclusive) and max (inclusive)
         function getRandomInt(min, max) {
